@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+.text-main{
+    color: #3EC2A0 !important;
+}
+.bg-main{
+    background-color: #3EC2A0 !important;
+}
+.text-second{
+    color: #17a2b8 !important;
+}
+.bg-second{
+    background-color: #17a2b8 !important;
+}
+/* --------------------
+header section start
+-------------------- */
+header{
+    background: rgba(0,0,0,0.6) url(../image/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:multiply;
+    /* background-position: center; */
+    /* position: relative; */
+}
+/* header::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.600);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+} */
+header .z-300{
+    z-index: 300;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-item .active{
+    color: #3EC2A0 !important;
+}
+.nav-link:hover{
+    color: #3EC2A0 !important;
+}
+.nav-link:focus{
+    color: black !important;
+}
+/* --------------------
+header section end
+-------------------- */
+/* --------------------
+banner section start
+-------------------- */
+.banner{
+    padding: 9rem 0rem;
+}
+button.btnHoverBnr{
+    border-radius: px;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: px solid white;
+}
+button.btnHoverBnr:hover{
+    background-color: #3EC2A0;
+    border: px solid #3ec2a0;
+}
+/* --------------------
+banner section end
+-------------------- */
+/* --------------------
+about section start
+-------------------- */
+/* hr{
+    height: 3px !important;
+    width: 5rem;
+    margin: auto;
+    color: #17a2b8;
+} */
+button.btnHoverAbt{
+    background-color: #17a2b8;
+    border: 2px solid ;
+    color: white;
+}
+button.btnHoverAbt:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+/* --------------------
+about section end
+-------------------- */
+/* --------------------
+content section start
+-------------------- */
+.content{
+    background-color: #17a2b8;
+}
+button.btnHoverCntn{
+    font-size: 16px;
+    color: #17a2b8;
+    padding: 20px 50px;
+    background-color: whitesmoke;
+}
+button.btnHoverCntn:hover{
+    background-color: #333;
+    color: white; 
+}
+button.btnHoverCntn2{
+    font-size: 16px;
+    padding: 20px 50px;
+    background-color: #333;
+    color: white;
+}
+button.btnHoverCntn2:hover{
+    background-color: white;
+    color: black;
+}
+/* --------------------
+content section end
+-------------------- */
+/* --------------------
+footer section start
+-------------------- */
+footer{
+    background-color: #191919;
+}
+.fa-facebook-f{
+    color: #999;
+    background-color: #222;
+    padding: 15px;
+    margin: 0px 5px;
+}
+.fa-facebook-f:hover{
+    color: white;
+}
+p.copyright{
+    color: #999;
+}
+/* --------------------
+footer section end
+-------------------- */
